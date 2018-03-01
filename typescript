@@ -1,0 +1,168 @@
+Script started on Sat 27 Dec 2014 02:14:57 PM EST
+timberlake {~/CSE321/project1} > Scri[K[K[K[K./S[K[K[K/.[K[K./Script
+rm drone.o drone
+rm: cannot remove `drone.o': No such file or directory
+rm: cannot remove `drone': No such file or directory
+make: *** [clean] Error 1
+gcc -c drone.c
+gcc -lpthread -o drone drone.o
+How many drones shall I run?
+3
+DRONE:0 REGISTERED
+DRONE:0 ACTIVATED
+DRONE:1 REGISTERED
+DRONE:0 LOADED ADDRESS
+DRONE:0 REQUESTING CLEARANCE..
+DRONE:1 ACTIVATED
+DRONE:0 CLEARED TO TAKE OFF
+DRONE:1 LOADED ADDRESS
+DRONE:2 REGISTERED
+DRONE:0 TAKING OFF
+DRONE:1 REQUESTING CLEARANCE..
+DRONE:2 ACTIVATED
+DRONE:1 CLEARED TO TAKE OFF
+DRONE:0 REACHED ALLOWED ALTITUDE
+DRONE:2 LOADED ADDRESS
+DRONE:1 TAKING OFF
+DRONE:2 REQUESTING CLEARANCE..
+DRONE:1 REACHED ALLOWED ALTITUDE
+DRONE:0 FLYING[9][14]
+DRONE:2 CLEARED TO TAKE OFF
+DRONE:0 FLYING[10][15]
+DRONE:2 TAKING OFF
+DRONE:1 FLYING[25][3]
+DRONE:0 FLYING[11][16]
+DRONE:2 REACHED ALLOWED ALTITUDE
+DRONE:0 FLYING[12][17]
+DRONE:1 FLYING[26][4]
+DRONE:1 FLYING[27][5]
+DRONE:0 FLYING[13][18]
+DRONE:2 FLYING[41][14]
+DRONE:0 FLYING[14][19]
+DRONE:1 FLYING[28][6]
+DRONE:2 FLYING[42][15]
+DRONE:0 FLYING[15][20]
+DRONE:2 FLYING[43][16]
+DRONE:1 REACHED ADDRESS
+DRONE:0 FLYING[16][21]
+DRONE:2 FLYING[44][17]
+DRONE:0 FLYING[17][22]
+DRONE:1 LANDING...
+DRONE:2 FLYING[45][18]
+DRONE:1 PAYLOAD DELIVERED
+DRONE:0 FLYING[18][23]
+DRONE:0 FLYING[19][24]
+DRONE:1 CHECKING FOR COLLISIONS
+DRONE:2 REACHED ADDRESS
+DRONE:1 DETECTED OBJECT AHEAD
+DRONE:2 LANDING...
+DRONE:0 REACHED ADDRESS
+DRONE:1 AVOIDING COLLISION..
+DRONE:1 GOING EAST[31][7]
+DRONE:1 GOING EAST[32][7]
+DRONE:1 GOING EAST[33][7]
+DRONE:2 PAYLOAD DELIVERED
+DRONE:1 FLYING[33][7]
+DRONE:0 LANDING...
+DRONE:2 DRONE TAKING OFF
+DRONE:2 REACHED ALTITUDE
+DRONE:0 PAYLOAD DELIVERED
+DRONE:1 FLYING[34][8]
+DRONE:2 FLYING[39][31]
+DRONE:1 FLYING[35][9]
+DRONE:0 DRONE TAKING OFF
+DRONE:0 REACHED ALTITUDE
+DRONE:2 FLYING[38][30]
+DRONE:0 FLYING[28][13]
+DRONE:1 FLYING[36][10]
+DRONE:2 FLYING[37][29]
+DRONE:0 FLYING[27][12]
+DRONE:1 FLYING[37][11]
+DRONE:2 FLYING[36][28]
+DRONE:1 FLYING[38][12]
+DRONE:0 FLYING[26][11]
+DRONE:2 LANDING
+DRONE:2 BACK AT STATION
+DRONE:0 FLYING[25][10]
+DRONE:1 FLYING[39][13]
+DRONE:1 FLYING[40][14]
+DRONE:0 FLYING[24][9]
+DRONE:0 FLYING[23][8]
+DRONE:1 FLYING[41][15]
+DRONE:1 FLYING[42][16]
+DRONE:0 FLYING[22][7]
+DRONE:0 LANDING
+DRONE:0 BACK AT STATION
+DRONE:1 FLYING[43][17]
+DRONE:1 FLYING[44][18]
+DRONE:1 REACHED ADDRESS
+DRONE:1 LANDING...
+DRONE:1 PAYLOAD DELIVERED
+DRONE:1 DRONE TAKING OFF
+DRONE:1 REACHED ALTITUDE
+DRONE:1 FLYING[11][18]
+DRONE:1 FLYING[10][17]
+DRONE:1 FLYING[9][16]
+DRONE:1 FLYING[8][15]
+DRONE:1 FLYING[7][14]
+DRONE:1 FLYING[6][13]
+DRONE:1 FLYING[5][12]
+DRONE:1 FLYING[4][11]
+DRONE:1 FLYING[3][10]
+DRONE:1 FLYING[2][9]
+DRONE:1 FLYING[1][8]
+DRONE:1 FLYING[0][7]
+DRONE:1 FLYING[-1][6]
+DRONE:1 LANDING
+DRONE:1 BACK AT STATION
+timberlake {~/CSE321/project1} > ls
+[0m[38;5;34mdrone[0m  drone.c  droneDesing.txt  drone.h  drone.o  droneStateDiagram(1).pdf  Makefile  README  [38;5;34mScript[0m  [38;5;27mscripts[0m  typescript
+[mtimberlake {~/CSE321/project1} > vi typescript 
+[?1049h[?1h=[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"typescript" 0L, 0C[>c[2;1H[94m~                                                                                                                                                     [3;1H~                                                                                                                                                     [4;1H~                                                                                                                                                     [5;1H~                                                                                                                                                     [6;1H~                                                                                                                                                     [7;1H~                                                                                                                                                     [8;1H~                                                                                                                                                     [9;1H~                                                                                                                                                     [10;1H~                                                                                                                                                     [11;1H~                                                                                                                                                     [12;1H~                                                                                                                                                     [13;1H~                                                                                                                                                     [14;1H~                                                                                                                                                     [15;1H~                                                                                                                                                     [16;1H~                                                                                                                                                     [17;1H~                                                                                                                                                     [18;1H~                                                                                                                                                     [19;1H~                                                                                                                                                     [20;1H~                                                                                                                                                     [21;1H~                                                                                                                                                     [22;1H~                                                                                                                                                     [23;1H~                                                                                                                                                     [24;1H~                                                                                                                                                     [25;1H~                                                                                                                                                     [26;1H~                                                                                                                                                     [27;1H~                                                                                                                                                     [28;1H~                                                                                                                                                     [29;1H~                                                                                                                                                     [30;1H~                                                                                                                                                     [31;1H~                                                                                                                                                     [32;1H~                                                                                                                                                     [33;1H~                                                                                                                                                     [34;1H~                                                                                                                                                     [35;1H~                                                                                                                                                     [36;1H~                                                                                                                                                     [37;1H~                                                                                                                                                     [38;1H~                                                                                                                                                     [39;1H~                                                                                                                                                     [m[40;133H0,0-1[9CAll[1;1H[?12l[?25h[?25l[40;1H[K[40;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049ltimberlake {~/CSE321/project1} > more typescript 
+timberlake {~/CSE321/project1} > 
+timberlake {~/CSE321/project1} > 
+timberlake {~/CSE321/project1} > 
+timberlake {~/CSE321/project1} > 
+timberlake {~/CSE321/project1} > 
+timberlake {~/CSE321/project1} > 
+timberlake {~/CSE321/project1} > 
+timberlake {~/CSE321/project1} > cd[K[Kcd ..
+timberlake {~/CSE321} > ls
+[0m[38;5;27mcodecon[0m  [38;5;27mdrone[0m  [38;5;9mIloveCSE321.tar[0m  [38;5;34mkbdcnt[0m  kbdcnt.c  [38;5;27mpipe[0m  prj2  [38;5;9mprj3.tar.gz[0m  [38;5;27mproject1[0m  [38;5;9mproject2_part2.tar[0m  [38;5;27mproject2_task_schedule[0m
+[mtimberlake {~/CSE321} > cd ,[K..
+timberlake {~} > cd ..
+timberlake {/home/cendue} > ls
+[0m[38;5;27maantolin[0m  [38;5;27marcuttle[0m  [38;5;27mbpcrooks[0m  [38;5;27mcssciand[0m  [38;5;27mdkim39[0m    [38;5;27mgalyabau[0m  [38;5;27mjbecker6[0m  [38;5;27mjohnugwu[0m  [38;5;27mkeyshawn[0m  [38;5;27mmfkanaby[0m  [38;5;27mmymakda[0m   [38;5;27mpedrodia[0m  [38;5;27msaradann[0m  [38;5;27mthalaiky[0m  [38;5;27mwjjack[0m
+[38;5;27mabmccull[0m  [38;5;27marebmann[0m  [38;5;27mbrandanj[0m  [38;5;27mcvfritz[0m   [38;5;27mdlfische[0m  [38;5;27mgavinsie[0m  [38;5;27mjbharvey[0m  [38;5;27mjohnzupk[0m  [38;5;27mkhbarber[0m  [38;5;27mmhandley[0m  [38;5;27mna28[0m      [38;5;27mpeteriss[0m  [38;5;27msaruggie[0m  [38;5;27mthomas69[0m  [38;5;27mwliang7[0m
+[38;5;27machuang[0m   [38;5;27marsonker[0m  [38;5;27mbrandonc[0m  [38;5;27mcwoodard[0m  [38;5;27mdmc42[0m     [38;5;27mgcbauer[0m   [38;5;27mjbkuczma[0m  [38;5;27mjordanra[0m  [38;5;27mkhsu7[0m     [38;5;27mmhassan3[0m  [38;5;27mnacacami[0m  [38;5;27mpeterkuc[0m  [38;5;27msaseenpu[0m  [38;5;27mthomassa[0m  [38;5;27mwmartens[0m
+[38;5;27macsiracu[0m  [38;5;27marunanba[0m  [38;5;27mbryanpad[0m  [38;5;27mcxing[0m     [38;5;27mdonaldlu[0m  [38;5;27mgtwhite[0m   [38;5;27mjc384[0m     [38;5;27mjpcerone[0m  [38;5;27mkhu3[0m      [38;5;27mminghann[0m  [38;5;27mnacellin[0m  [38;5;27mphilipbo[0m  [38;5;27msatyamme[0m  [38;5;27mthomaswu[0m  [38;5;27mwoosukch[0m
+[38;5;27macyuen[0m    [38;5;27mashaabal[0m  [38;5;27mbryantch[0m  [38;5;27mda48[0m      [38;5;27mdonghakw[0m  [38;5;27mhenryohm[0m  [38;5;27mjcchouin[0m  [38;5;27mjpconsal[0m  [38;5;27mkiransin[0m  [38;5;27mmjohn2[0m    [38;5;27mnafitulb[0m  [38;5;27mpindongs[0m  [38;5;27msbkumar[0m   [38;5;27mtjbidney[0m  [38;5;27mxiaofeil[0m
+[38;5;27madamkerr[0m  [38;5;27mashishty[0m  [38;5;27mbtvu[0m      [38;5;27mdaeyeong[0m  [38;5;27mdpsavare[0m  [38;5;27mhermesko[0m  [38;5;27mjcnorris[0m  [38;5;27mjrcharlo[0m  [38;5;27mkjalal[0m    [38;5;27mmjszczep[0m  [38;5;27mnamaurer[0m  [38;5;27mpnixon[0m    [38;5;27mschoudhe[0m  [38;5;27mtjd23[0m     [38;5;27mychen38[0m
+[38;5;27madbooth[0m   [38;5;27masifhoss[0m  [38;5;27mcaarroyo[0m  [38;5;27mdamianog[0m  [38;5;27mdranders[0m  [38;5;27mhkshih[0m    [38;5;27mjcoh[0m      [38;5;27mjrhoeber[0m  [38;5;27mkmcarolu[0m  [38;5;27mmjterra[0m   [38;5;27mnasantin[0m  [38;5;27mpriteshg[0m  [38;5;27mscortes[0m   [38;5;27mtjhancoc[0m  [38;5;27myifuyin[0m
+[38;5;27madeolive[0m  [38;5;27masrathor[0m  [38;5;27mcaevans[0m   [38;5;27mdanielal[0m  [38;5;27mdrewclar[0m  [38;5;27mhlin34[0m    [38;5;27mjdbraun[0m   [38;5;27mjrsalern[0m  [38;5;51mkpcleary[0m  [38;5;27mmkg7[0m      [38;5;27mnaziarah[0m  [38;5;27mqiweilei[0m  [38;5;27mscottlai[0m  [38;5;27mtjschout[0m  [38;5;27myongboha[0m
+[38;5;27madferrie[0m  [38;5;27mau7[0m       [38;5;27mcdm25[0m     [38;5;27mdanielet[0m  [38;5;27mdrewleon[0m  [38;5;27mhongdazh[0m  [38;5;27mjdmallen[0m  [38;5;27mjspatel[0m   [38;5;27mkshitijs[0m  [38;5;27mmmfraser[0m  [38;5;27mndhutchi[0m  [38;5;27mremay[0m     [38;5;27mseanecke[0m  [38;5;27mtkant[0m     [38;5;27myousufzu[0m
+[38;5;27magmeucci[0m  [38;5;27mawilacqu[0m  [38;5;27mchadrayk[0m  [38;5;27mdanielko[0m  [38;5;27mdrlloyd[0m   [38;5;27mhuangfuz[0m  [38;5;27mjdolson[0m   [38;5;27mjstudt[0m    [38;5;27mkylescho[0m  [38;5;27mmmg24[0m     [38;5;27mneilhein[0m  [38;5;27mrestaple[0m  [38;5;27mseanpett[0m  [38;5;27mtkle[0m      [38;5;27mytian5[0m
+[38;5;27maishanib[0m  [38;5;27mawjacobs[0m  [38;5;27mchasekla[0m  [38;5;27mdanielre[0m  [38;5;27mdryarrin[0m  [38;5;27mhyeongki[0m  [38;5;27mjdruszal[0m  [38;5;27mjuliorod[0m  [38;5;27mkyu22[0m     [38;5;27mmmnair[0m    [38;5;27mnghotra[0m   [38;5;27mrichardk[0m  [38;5;27msedennis[0m  [38;5;27mtli27[0m     [38;5;27myuyanxu[0m
+[38;5;27majayiyer[0m  [38;5;27mawma[0m      [38;5;27mchernyee[0m  [38;5;27mdaviddob[0m  [38;5;27mdshardin[0m  [38;5;27mivaylopa[0m  [38;5;27mjeciriac[0m  [38;5;27mjungbinh[0m  [38;5;27mladerer2[0m  [38;5;27mmmrich[0m    [38;5;27mnicolasm[0m  [38;5;27mrishadah[0m  [38;5;27mseongsuk[0m  [38;5;27mtlmorog[0m   [38;5;27mzhenrong[0m
+[38;5;27majdecaro[0m  [38;5;27mazhang8[0m   [38;5;27mchihchun[0m  [38;5;27mdavidtow[0m  [38;5;27meacrow[0m    [38;5;27mjacobbel[0m  [38;5;27mjemychen[0m  [38;5;27mjunlinta[0m  [38;5;27mledongya[0m  [38;5;27mmmsiwiec[0m  [38;5;27mnikhilja[0m  [38;5;27mrjbabajk[0m  [38;5;27mseverinb[0m  [38;5;27mtluckman[0m  [38;5;27mzjsalim[0m
+[38;5;27majding[0m    [38;5;27mbcgates[0m   [38;5;27mchinasam[0m  [38;5;27mdavidvan[0m  [38;5;27mechan24[0m   [38;5;27mjaesungs[0m  [38;5;27mjeredgei[0m  [38;5;27mjye7[0m      [38;5;27mleetoffo[0m  [38;5;27mmohsiurr[0m  [38;5;27mnitingar[0m  [38;5;27mrobertsz[0m  [38;5;27mshabazfa[0m  [38;5;27mtmweppne[0m  [38;5;27mzjward[0m
+[38;5;27majfunk2[0m   [38;5;27mbclee[0m     [38;5;27mchlee4[0m    [38;5;27mdazianab[0m  [38;5;27medmallow[0m  [38;5;27mjaidenfe[0m  [38;5;27mjeremyin[0m  [38;5;27mkaizheng[0m  [38;5;27mlibingwu[0m  [38;5;27mmr83[0m      [38;5;27mnjbrenna[0m  [38;5;27mrrwasmer[0m  [38;5;27mshawnmil[0m  [38;5;27mtonyjian[0m  [38;5;27mzmwieand[0m
+[38;5;27majkirsch[0m  [38;5;27mbconk[0m     [38;5;27mcjbeutel[0m  [38;5;27mdelioust[0m  [38;5;27mednagler[0m  [38;5;27mjalee4[0m    [38;5;27mjflores2[0m  [38;5;27mkatewhit[0m  [38;5;27mlinnhtwa[0m  [38;5;27mmrdolan[0m   [38;5;27mnjpalowi[0m  [38;5;27mrrweisz[0m   [38;5;27msjain4[0m    [38;5;27mtroykoss[0m  [38;5;27mzrfehrma[0m
+[38;5;27majruckel[0m  [38;5;27mbdl4[0m      [38;5;27mcjfrance[0m  [38;5;27mdenye[0m     [38;5;27medwardpo[0m  [38;5;27mjamaters[0m  [38;5;27mjgood[0m     [38;5;27mkaushikr[0m  [38;5;27mllin27[0m    [38;5;27mmrferris[0m  [38;5;27mnjsargen[0m  [38;5;27mrs77[0m      [38;5;27msjnatale[0m  [38;5;27mts62[0m      [38;5;27mzsmoore[0m
+[38;5;27malexhorn[0m  [38;5;27mbeisiege[0m  [38;5;27mclaytont[0m  [38;5;27mderylkwo[0m  [38;5;27medwinluc[0m  [38;5;27mjamesber[0m  [38;5;27mjianwenz[0m  [38;5;27mkaylawei[0m  [38;5;27mlouislap[0m  [38;5;27mmrinalbh[0m  [38;5;27mnmnguyen[0m  [38;5;27mrshannon[0m  [38;5;27mslee28[0m    [38;5;27mvanhoose[0m
+[38;5;27malhaynie[0m  [38;5;27mbenreid[0m   [38;5;27mcmfalk[0m    [38;5;27mdevintot[0m  [38;5;27mejchin[0m    [38;5;27mjamesdwy[0m  [38;5;27mjimenez9[0m  [38;5;27mkaysiej[0m   [38;5;27mmackgood[0m  [38;5;27mmrnorton[0m  [38;5;27mnmscholl[0m  [38;5;27mrsodde[0m    [38;5;27msong4[0m     [38;5;27mvapatel[0m
+[38;5;27malimahmo[0m  [38;5;27mbentarha[0m  [38;5;27mcnzytari[0m  [38;5;27mdhan4[0m     [38;5;27melviscas[0m  [38;5;27mjamesgoz[0m  [38;5;27mjimmywu[0m   [38;5;27mkbaran2[0m   [38;5;27mmaganti[0m   [38;5;27mmsboamah[0m  [38;5;27mnmwilk[0m    [38;5;27mrupertli[0m  [38;5;27mssingh32[0m  [38;5;27mvcheng3[0m
+[38;5;27malmocnia[0m  [38;5;27mberstael[0m  [38;5;27mcoleczos[0m  [38;5;27mdhosie[0m    [38;5;27memvane[0m    [38;5;27mjameslac[0m  [38;5;27mjjamsdil[0m  [38;5;27mkbcybura[0m  [38;5;27mmarctill[0m  [38;5;27mmtaylor9[0m  [38;5;27mnnc2[0m      [38;5;27mrvazdesa[0m  [38;5;27msukhmanj[0m  [38;5;27mvcl2[0m
+[38;5;27malvinpha[0m  [38;5;27mbfiorita[0m  [38;5;27mcolincan[0m  [38;5;27mdhruvvan[0m  [38;5;27mepanalig[0m  [38;5;27mjamesmil[0m  [38;5;27mjlong6[0m    [38;5;27mkbowers[0m   [38;5;27mmaxhatte[0m  [38;5;27mmthoward[0m  [38;5;27mnoahpocz[0m  [38;5;27mryangree[0m  [38;5;27mtagrawal[0m  [38;5;27mvernhuil[0m
+[38;5;27mamathur5[0m  [38;5;27mbgginley[0m  [38;5;27mcpark22[0m   [38;5;27mdidarulb[0m  [38;5;27mericczup[0m  [38;5;27mjamorrel[0m  [38;5;27mjmdamato[0m  [38;5;27mkennyyee[0m  [38;5;27mmaxwellf[0m  [38;5;27mmtswagle[0m  [38;5;27mnrydzyns[0m  [38;5;27mryanpav[0m   [38;5;27mtaigaish[0m  [38;5;27mvgaur[0m
+[38;5;27mamolpati[0m  [38;5;27mbiernat2[0m  [38;5;27mcpking[0m    [38;5;27mdillonpo[0m  [38;5;27mericshel[0m  [38;5;27mjapeacoc[0m  [38;5;27mjnprible[0m  [38;5;27mkevindug[0m  [38;5;27mmcbrayle[0m  [38;5;27mmulhisen[0m  [38;5;27mnsaulino[0m  [38;5;27mryansmit[0m  [38;5;27mtanveerg[0m  [38;5;27mvtc[0m
+[38;5;27mamuraco[0m   [38;5;27mbinyuand[0m  [38;5;27mcraighow[0m  [38;5;27mdivakars[0m  [38;5;27mericweig[0m  [38;5;27mjarrodga[0m  [38;5;27mjoeventr[0m  [38;5;27mkevingom[0m  [38;5;27mmchan8[0m    [38;5;27mmurphyba[0m  [38;5;27mpauljenn[0m  [38;5;27msadahaid[0m  [38;5;27mtaobi[0m     [38;5;27mvvpatel[0m
+[38;5;27manblum[0m    [38;5;27mbjg29[0m     [38;5;27mcrdushko[0m  [38;5;27mdjharenz[0m  [38;5;27metvan[0m     [38;5;27mjasonl[0m    [38;5;27mjohnfinc[0m  [38;5;27mkevinkij[0m  [38;5;27mmcrachma[0m  [38;5;27mmvtipton[0m  [38;5;27mpaulkowa[0m  [38;5;27msaishrey[0m  [38;5;27mtawishow[0m  [38;5;27mwenzeli[0m
+[38;5;27mandrewts[0m  [38;5;27mbjmendez[0m  [38;5;27mcspalmer[0m  [38;5;27mdjthorne[0m  [38;5;27mfilippos[0m  [38;5;27mjayung[0m    [38;5;27mjohnkuhn[0m  [38;5;27mkevinrat[0m  [38;5;27mmdkulbac[0m  [38;5;27mmwebb2[0m    [38;5;27mpaulmora[0m  [38;5;27msakshama[0m  [38;5;27mtdrogers[0m  [38;5;27mwilliamm[0m
+[38;5;27mapillai[0m   [38;5;27mbokgihon[0m  [38;5;27mcsposato[0m  [38;5;27mdkersten[0m  [38;5;27mfrunfola[0m  [38;5;27mjb295[0m     [38;5;27mjohnmcki[0m  [38;5;27mkevinseq[0m  [38;5;27mmdrewitt[0m  [38;5;27mmwelling[0m  [38;5;27mpc57[0m      [38;5;27msameepdh[0m  [38;5;27mtgsyre[0m    [38;5;27mwjclark[0m
+[mtimberlake {/home/cendue} > logout
+Not a login shell.
+timberlake {/home/cendue} > exit
+exit
+
+Script done on Sat 27 Dec 2014 02:28:55 PM EST

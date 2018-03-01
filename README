@@ -1,0 +1,22 @@
+  TO RUN THE  PROGRAM WITH MAKE USE
+   make
+  to run executable:	./drone
+   make clean -will remove the executable and comile file
+   (For the second option do not type make clean, it is done in the Script command)	
+
+ SECOND OPTION WITHOUT HAVING TO USE MAKE
+	./Scritp
+     THE PROGRAM WILL ASK FOR NUMBER OF DRONES
+		enter a number and hit ENTER.
+	possible error 1 message might occur if there is no file to be removed. That is due to the Script clearing any executable file
+	 before runinning.	
+
+ TO INTERRUPT THE EXECUTION OF THE CODE 
+      type CONTROL C
+
+
+
+
+
+		
+					

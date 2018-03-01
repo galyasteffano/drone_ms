@@ -1,0 +1,207 @@
+  list of all states:
+	S1: register drone
+	S2: activate drone
+	S3: load address
+	S4: drone at gate
+	S5: clearance to take off
+	S6: take off
+	S7: reach allowed altitude
+	S8: fly
+	S9: address reached
+	S10: land
+	S11: deliver
+	S12: return home
+	S13: ERROR state	
+	S14: collision detection
+	S15: avoiding collision
+	S16: navigate state
+	S17: returning home route
+	S18: exit
+
+
+PSEUDOCODE:
+		WHILE state !18
+			CASE 1:
+				IF randomNumber==0
+					print "drone not registered"
+				ELSE
+					print "drone registered"
+			ENDCASE
+			CASE 2:
+				IF randomNumber==0
+					print "drone not activated"
+				ELSE
+					print"drone activated"
+			ENDCASE
+			CASE 3:
+				IF randomNumber==0
+					print"missing address...Waiting for
+					addrress to load"
+				ELSE
+					print"loaded address"
+			EDNCASE
+			CASE 4:
+				
+					printf"requesting clearance"
+			ENDCASE
+			
+			CASE 5:
+				IF randomNumber(0-49)==0
+					go to state 14
+			    	ELSE
+					print "drone cleared to take off"
+			ENDCASE
+			CASE 6:
+				print "drone taking off"
+				go to state 7
+			ENDCASE
+			CASE 7:
+				IF radnomNumber(0-14)==0
+					state=14
+			ELSE
+				print "drone reached allowed altitude"
+					state=8
+				IF randomNumber(0-49)==0
+					print "drone has not reached allowed
+						altitude yet"
+			ENDCASE
+			CASE 8
+				IF randomNumber(0-19)==0
+					state=14
+				ELSE
+					state=16
+			ENDCASE
+			CASE 9
+				IF randomNumber==0
+					checking continuously if destination is reached
+					state=9
+				ELSE		
+					print "reached address"
+			ENDCASE
+			CASE 10
+				IF randomNumber==0
+					print "looking for place to land"
+					state=14//checks for collision
+				ELSE
+					print "landing"
+					state=11
+			ENDCASE
+			CASE 11
+				IF randomNumber==0
+					print "payload is being delivered"
+					state=11;
+				ELSE
+					print "package delivered"
+			ENDCASE
+			CASE 12
+				IF randomNumber==0
+					print "checking for collision"
+					State=14
+				ELSE
+					print "drone taking off"
+					print "drone reached allowed altitude"
+			ENDCASE
+			CASE 13
+				lock with mutex
+				print "drone cannot deliver. Emergency landing"
+				state=1
+				unclock 
+			ENDCASE
+			CASE 14
+				IF randomNumber==0
+					state=13
+				ELSE
+					print "drone detected object ahead"
+					state=15//avoid
+			ENDCASE
+			CASE 15
+				print "avoiding collision
+				IF randomNumber==0
+					lock 
+					set x to x plus 2, then decrement x by 1 three
+					times.
+					print "drone going west"
+				ELSE
+					set x to x plus 2, then increment by 1
+					three times
+					print "drone going east"
+					unclock
+			ENDCASE
+			CASE 16
+				WHILE final destination is 1 or 0	
+				REPEAT randomize final
+				UNTIL final is > than 0 and 1 
+				
+				WHILE count !=0
+					print "drone flying"
+					increment x
+					increment y
+					increment count
+				ENDWHILE
+					state=9
+				ENDCASE
+			CASE 17
+				randomize final destination
+				WHILE final destination is 1 or 0             
+                                REPEAT randomize final
+                                UNTIL final is > than 0 and 1 
+				initialize x to 10
+				initialize y to 10
+				copy final to count
+				randomize x1 and y1
+				
+				WHILE	count>=0
+				REPEAT	print "drone flying"
+					decrement x1
+					decrement y1
+					decrement count	
+				UNTIL  	count=0   
+		  END
+
+
+
+	
+				 	 
+
+
+How the drone works/description:
+	When a drone is registered it goes to the next state which is
+	activate. The drone does not transition to the next state if there is a
+	problem with the registration. It is randomly decided and the number is chosen
+	big to emphasize a possibility of problem to be very small. 
+	 If there is a problem with the activation of a drone, it is held in
+	the same state until the issue is resolved. The possibility of this
+	happening is very small and it is randomly decided.
+	 Once activated, a drone load an address. There is a chance of not
+	being able to load the address so message is displayed and drone is
+	not allowed to go to the gate until that address has been
+	loaded.(possibility is very small and randomly decided). 
+	    A  drone goes to a exit gate or gate and does not take
+	off until it has received a clearance to take off. 
+		There is set maximum altitude that drone can reach and once
+	reached it keep flying at it, it keeps checking for collision and if found, it
+	enters a state which randomly decides to move WEST or SOUTH. The difference
+	between both is that SOUTH is designed to simulate moving in this direction by
+	incrementing X coordinate. It is recursively incremented by 1 and it is
+	somewhat simple but correctly displays simulation of moving by three steps. 
+	WEST is designed very similarly, with the only difference being that X
+	coordinate is decremented by 1. The idea again is to simulate a movement to
+	towards WEST to avoid colliding with another drone. State 15, which is the
+	state being described, is allowing access to only one drone at the time,
+	because the way the part is implemented if all drones have access to it at the
+	same time, it defeats the purpose of the state itself, if they all move
+	together to WEST,for instance, they will be colliding, not avoiding
+	collision. Once collision has been avoided, the drone continues the
+	course toward the destination until is reached. 
+		When a drone reach a destination, which is randomly choosen.
+	It enters a LAND state, delivers the package and enters return state.
+	Return state is design with the idea of having a different path for
+	going back to the station. It is randomly choose where the station is because
+	it is assumed that there are many home stations so drone chooses the closest
+	one to return to.
+	Lastly, state 13 is a unique state which is why it has bigger random number. The
+	purpose of this state is to handle a possible malfunction, or any other than
+	collision accident, this state sends the current coordinates (with only using
+	print statement).It is assumed that the drone cannot move, so
+	it lets the base station know of its current location, and it goes back to the
+	first state.   		
